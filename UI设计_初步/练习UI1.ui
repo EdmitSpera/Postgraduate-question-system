@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1080</width>
-    <height>835</height>
+    <width>1118</width>
+    <height>809</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -26,270 +26,43 @@
    <string>UI_test</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QDockWidget" name="dockWidget">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>1080</width>
-      <height>841</height>
+      <x>590</x>
+      <y>100</y>
+      <width>121</width>
+      <height>61</height>
      </rect>
     </property>
-    <property name="features">
-     <set>QDockWidget::NoDockWidgetFeatures</set>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+     </font>
     </property>
-    <property name="allowedAreas">
-     <set>Qt::NoDockWidgetArea</set>
+    <property name="styleSheet">
+     <string notr="true"/>
     </property>
-    <property name="windowTitle">
-     <string>刷题库</string>
+    <property name="text">
+     <string>练习类别</string>
     </property>
-    <widget class="QWidget" name="dockWidgetContents">
-     <widget class="QPushButton" name="Bt_exercise">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>150</y>
-        <width>131</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{
-	background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.535, y2:0.482955, stop:0 rgba(107, 246, 255, 255), stop:1 rgba(255, 255, 255, 255));
-	border-radius:30px
-
-}
-QPushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>练习</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="Bt_wrong">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>350</y>
-        <width>131</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-QPushButton{
-	background-color: rgb(236, 236, 236);
-	border-radius:30px
-
-}
-QPushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>错题</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="Bt_mine">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>550</y>
-        <width>131</width>
-        <height>71</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-QPushButton{
-	background-color: rgb(236, 236, 236);
-	border-radius:30px
-
-}
-QPushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-}</string>
-      </property>
-      <property name="text">
-       <string>我的</string>
-      </property>
-     </widget>
-     <widget class="QListView" name="whole_background">
-      <property name="geometry">
-       <rect>
-        <x>-10</x>
-        <y>-30</y>
-        <width>1141</width>
-        <height>831</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <family>Adobe 宋体 Std L</family>
-       </font>
-      </property>
-      <property name="contextMenuPolicy">
-       <enum>Qt::DefaultContextMenu</enum>
-      </property>
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Sunken</enum>
-      </property>
-     </widget>
-     <widget class="QFrame" name="frame">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>50</y>
-        <width>801</width>
-        <height>661</height>
-       </rect>
-      </property>
-      <property name="cursor">
-       <cursorShape>ArrowCursor</cursorShape>
-      </property>
-      <property name="layoutDirection">
-       <enum>Qt::LeftToRight</enum>
-      </property>
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Sunken</enum>
-      </property>
-      <widget class="QLabel" name="label">
-       <property name="geometry">
-        <rect>
-         <x>330</x>
-         <y>-20</y>
-         <width>141</width>
-         <height>141</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>17</pointsize>
-         <weight>75</weight>
-         <italic>false</italic>
-         <bold>true</bold>
-         <underline>false</underline>
-        </font>
-       </property>
-       <property name="text">
-        <string>练习类别</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="Bt_class1">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>170</y>
-         <width>131</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-QPushButton{
-	background-color: rgb(255, 255, 127);
-	border-radius:15px
-
-}
-QPushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-}</string>
-       </property>
-       <property name="text">
-        <string>分类1</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="Bt_class3">
-       <property name="geometry">
-        <rect>
-         <x>560</x>
-         <y>170</y>
-         <width>131</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-QPushButton{
-	background-color: rgb(170, 170, 255);
-	border-radius:15px
-
-}
-QPushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-}</string>
-       </property>
-       <property name="text">
-        <string>分类3</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="Bt_class2">
-       <property name="geometry">
-        <rect>
-         <x>330</x>
-         <y>170</y>
-         <width>131</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="autoFillBackground">
-        <bool>false</bool>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">QPushButton{
-	background-color: rgb(255, 85, 127);
-	border-radius:15px
-
-}
-QPushButton:pressed{
-	padding-left:5px;
-	padding-top:5px;
-}</string>
-       </property>
-       <property name="text">
-        <string>分类2</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="Bt_class4">
-       <property name="geometry">
-        <rect>
-         <x>90</x>
-         <y>350</y>
-         <width>131</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-
+   </widget>
+   <widget class="QPushButton" name="Bt_wrong4">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>200</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
 QPushButton{
 	background-color: rgb(0, 255, 127);
 	border-radius:15px
@@ -299,22 +72,28 @@ QPushButton:pressed{
 	padding-left:5px;
 	padding-top:5px;
 }</string>
-       </property>
-       <property name="text">
-        <string>分类4</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="Bt_class6">
-       <property name="geometry">
-        <rect>
-         <x>560</x>
-         <y>350</y>
-         <width>131</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
+    </property>
+    <property name="text">
+     <string>分类4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bt_wrong6">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>500</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
 
 QPushButton{
 	background-color: rgb(255, 170, 255);
@@ -325,22 +104,264 @@ QPushButton:pressed{
 	padding-left:5px;
 	padding-top:5px;
 }</string>
-       </property>
-       <property name="text">
-        <string>分类6</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="Bt_class5">
-       <property name="geometry">
-        <rect>
-         <x>330</x>
-         <y>350</y>
-         <width>131</width>
-         <height>71</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
+    </property>
+    <property name="text">
+     <string>分类6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bt_wrong3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>500</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+
+QPushButton{
+	background-color: rgb(170, 170, 255);
+	border-radius:15px
+
+}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>分类3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bt_exit">
+    <property name="geometry">
+     <rect>
+      <x>1450</x>
+      <y>170</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:none;
+	border-image: url(:/新前缀/关闭窗口.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>221</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(198, 237, 255);
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="Bt_mine">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>500</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 247, 217);
+	border-radius:30px
+
+}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>我的</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>100</y>
+       <width>221</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(229, 255, 248);
+border-radius:0px
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="Bt_wrong">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{	
+background-color: rgb(229, 255, 248);
+	border-radius:30px
+}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>练习</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="Bt_exercise">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>300</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>17</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 247, 217);
+	color: rgb(0, 0, 0);
+	border-radius:30px
+
+}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+     </property>
+     <property name="text">
+      <string>错题</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Bt_wrong2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>350</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(255, 85, 127);
+	border-radius:15px
+
+}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>分类2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bt_mini">
+    <property name="geometry">
+     <rect>
+      <x>1400</x>
+      <y>160</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;
+border-image: url(:/新前缀/最小化.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bt_wrong5">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>350</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
 QPushButton{
 	background-color:rgb(170, 85, 255);
 	border-radius:15px
@@ -350,22 +371,171 @@ QPushButton:pressed{
 	padding-left:5px;
 	padding-top:5px;
 }</string>
-       </property>
-       <property name="text">
-        <string>分类5</string>
-       </property>
-      </widget>
-     </widget>
-     <zorder>whole_background</zorder>
-     <zorder>Bt_exercise</zorder>
-     <zorder>Bt_wrong</zorder>
-     <zorder>Bt_mine</zorder>
-     <zorder>frame</zorder>
-    </widget>
+    </property>
+    <property name="text">
+     <string>分类5</string>
+    </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>-480</y>
+      <width>501</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_drag">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>60</y>
+      <width>821</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(229, 255, 248);
+	border-top-right-radius:30px;
+	border-bottom-right-radius:30px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bt_wrong1">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>200</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+	background-color: rgb(255, 255, 127);
+	border-radius:15px
+
+}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>分类1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>60</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/新前缀/最小化.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>70</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/新前缀/关闭窗口.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_drag</zorder>
+   <zorder>label</zorder>
+   <zorder>Bt_wrong4</zorder>
+   <zorder>Bt_wrong6</zorder>
+   <zorder>Bt_wrong3</zorder>
+   <zorder>Bt_exit</zorder>
+   <zorder>frame</zorder>
+   <zorder>Bt_wrong2</zorder>
+   <zorder>Bt_mini</zorder>
+   <zorder>Bt_wrong5</zorder>
+   <zorder>label_2</zorder>
+   <zorder>Bt_wrong1</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
- <connections/>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1056</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1105</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1016</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>693</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
