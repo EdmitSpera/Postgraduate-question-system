@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="新前缀">
+    <file>错误.png</file>
+    <file>对勾-解除.png</file>
+    <file>关闭窗口.png</file>
+    <file>最小化.png</file>
+  </qresource>
+</RCC>
