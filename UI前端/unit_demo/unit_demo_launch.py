@@ -37,7 +37,6 @@ class LoginWindow(QMainWindow):
     def on_account_had_clicked(self):
         self.ui.stackedWidget.setCurrentIndex(0)
 
-
     def on_Bt_main_clicked(self):
         self.ui.stackedWidget.setCurrentIndex(0)
     def on_Bt_exercise_clicked(self):
