@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1130</width>
-    <height>762</height>
+    <height>782</height>
    </rect>
   </property>
   <property name="font">
@@ -297,7 +297,7 @@ padding-left:5px;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/新前缀/练习2.png);</string>
+     <string notr="true">image: url(:/新前缀/练习.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -454,8 +454,7 @@ QPushButton:pressed{
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
-	
-	border-image: url(:/新前缀/返回2.png);
+	border-image: url(:/新前缀/返回.png);
 }
 QPushButton:hover{
 	background-color: rgb(217, 217, 217);

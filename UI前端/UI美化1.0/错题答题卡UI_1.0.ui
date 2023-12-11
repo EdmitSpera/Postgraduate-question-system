@@ -83,8 +83,7 @@ QPushButton:pressed{
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
-	
-	border-image: url(:/新前缀/返回2.png);
+	border-image: url(:/新前缀/返回.png);
 }
 QPushButton:hover{
 	background-color: rgb(217, 217, 217);
@@ -348,7 +347,7 @@ QPushButton:pressed{
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/新前缀/练习2.png);
+     <string notr="true">image: url(:/新前缀/练习.png);
 </string>
     </property>
     <property name="text">
@@ -538,7 +537,7 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;当前题目：&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;/50&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;/25&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
@@ -924,8 +923,8 @@ QPushButton:pressed{
    <widget class="QPushButton" name="wrong_Qmore">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>250</y>
+      <x>160</x>
+      <y>440</y>
       <width>51</width>
       <height>51</height>
      </rect>
@@ -951,6 +950,486 @@ QPushButton:pressed{
     </property>
     <property name="text">
      <string>...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q11">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>250</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>11</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q12">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>250</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>12</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q17">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>17</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q18">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>18</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q19">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>19</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q14">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>250</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>14</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q13">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>250</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>13</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q22">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>22</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q21">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>21</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q20">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q16">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>250</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>16</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q15">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>250</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>15</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q23">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>23</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q25">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>440</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="wrong_Q24">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>350</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(195, 195, 195);
+border-radius:15px}
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+QPushButton:hover{
+	background-color: rgb(217, 217, 217);
+	border-radius:15px
+}</string>
+    </property>
+    <property name="text">
+     <string>24</string>
     </property>
    </widget>
   </widget>

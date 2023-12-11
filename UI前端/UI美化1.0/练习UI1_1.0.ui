@@ -255,7 +255,7 @@ QPushButton:pressed{
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/新前缀/练习2.png);
+     <string notr="true">image: url(:/新前缀/练习.png);
 background-color: rgb(217, 217, 217);</string>
     </property>
     <property name="text">
@@ -825,7 +825,7 @@ QPushButton:pressed{
    <property name="styleSheet">
     <string notr="true">QPushButton{
 	
-	border-image: url(:/新前缀/返回2.png);
+	border-image: url(:/新前缀/返回.png);
 }
 QPushButton:hover{
 	background-color: rgb(217, 217, 217);
