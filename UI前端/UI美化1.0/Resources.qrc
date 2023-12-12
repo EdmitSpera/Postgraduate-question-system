@@ -1,5 +1,11 @@
 <RCC>
   <qresource prefix="新前缀">
+    <file>已提交deepgreen.png</file>
+    <file>已提交green.png</file>
+    <file>已提交red.png</file>
+    <file>已提交.png</file>
+    <file>成绩单.png</file>
+    <file>回形针.png</file>
     <file>签到.png</file>
     <file>日历.png</file>
     <file>倒计时.png</file>
