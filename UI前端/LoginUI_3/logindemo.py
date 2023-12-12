@@ -20,12 +20,12 @@ class Ui_LoginWindow_2(object):
         font.setWeight(50)
         LoginWindow_2.setFont(font)
         self.stackedWidget = QtWidgets.QStackedWidget(LoginWindow_2)
-        self.stackedWidget.setGeometry(QtCore.QRect(170, 70, 891, 531))
+        self.stackedWidget.setGeometry(QtCore.QRect(120, 40, 981, 641))
         self.stackedWidget.setObjectName("stackedWidget")
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
         self.signin_button = QtWidgets.QPushButton(self.page_3)
-        self.signin_button.setGeometry(QtCore.QRect(80, 410, 93, 28))
+        self.signin_button.setGeometry(QtCore.QRect(140, 460, 93, 28))
         self.signin_button.setStyleSheet("QPushButton{\n"
 "border:none;\n"
 "    color: rgb(0,0,0);\n"
@@ -37,7 +37,7 @@ class Ui_LoginWindow_2(object):
 "")
         self.signin_button.setObjectName("signin_button")
         self.label = QtWidgets.QLabel(self.page_3)
-        self.label.setGeometry(QtCore.QRect(10, 20, 221, 481))
+        self.label.setGeometry(QtCore.QRect(70, 20, 221, 571))
         font = QtGui.QFont()
         font.setFamily("方正舒体")
         font.setBold(False)
@@ -52,7 +52,7 @@ class Ui_LoginWindow_2(object):
         self.label.setText("")
         self.label.setObjectName("label")
         self.label_4 = QtWidgets.QLabel(self.page_3)
-        self.label_4.setGeometry(QtCore.QRect(70, 90, 111, 61))
+        self.label_4.setGeometry(QtCore.QRect(130, 150, 111, 61))
         font = QtGui.QFont()
         font.setFamily("等线")
         font.setPointSize(16)
@@ -62,34 +62,35 @@ class Ui_LoginWindow_2(object):
         self.label_4.setStyleSheet("")
         self.label_4.setObjectName("label_4")
         self.lineEdit = QtWidgets.QLineEdit(self.page_3)
-        self.lineEdit.setGeometry(QtCore.QRect(40, 190, 161, 51))
+        self.lineEdit.setGeometry(QtCore.QRect(100, 240, 161, 51))
         self.lineEdit.setStyleSheet("border:none;\n"
 "border-bottom:2px solid rgba(0,0,0,100);\n"
-"background-color: rgba(0, 0, 0,0);")
+"background-color: rgba(0, 0, 0,0);\n"
+"")
         self.lineEdit.setObjectName("lineEdit")
         self.label_3 = QtWidgets.QLabel(self.page_3)
-        self.label_3.setGeometry(QtCore.QRect(230, 20, 651, 481))
+        self.label_3.setGeometry(QtCore.QRect(290, 20, 671, 571))
         self.label_3.setStyleSheet("background-color: rgba(0, 0, 0,50);\n"
 "border-top-right-radius:15px;\n"
 "border-bottom-right-radius:15px;")
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
         self.label_2 = QtWidgets.QLabel(self.page_3)
-        self.label_2.setGeometry(QtCore.QRect(230, 20, 651, 481))
+        self.label_2.setGeometry(QtCore.QRect(290, 20, 671, 571))
         self.label_2.setStyleSheet("border-image: url(:/img/res/img/1107810.jpg);\n"
 "border-top-right-radius:15px;\n"
 "border-bottom-right-radius:15px;")
         self.label_2.setText("")
         self.label_2.setObjectName("label_2")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.page_3)
-        self.lineEdit_2.setGeometry(QtCore.QRect(40, 260, 161, 51))
+        self.lineEdit_2.setGeometry(QtCore.QRect(100, 310, 161, 51))
         self.lineEdit_2.setStyleSheet("border:none;\n"
 "border-bottom:2px solid rgba(0,0,0,100);\n"
 "background-color: rgba(0, 0, 0,0);")
         self.lineEdit_2.setEchoMode(QtWidgets.QLineEdit.Password)
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.login_button = QtWidgets.QPushButton(self.page_3)
-        self.login_button.setGeometry(QtCore.QRect(60, 360, 131, 41))
+        self.login_button.setGeometry(QtCore.QRect(120, 420, 131, 41))
         font = QtGui.QFont()
         font.setFamily("幼圆")
         font.setPointSize(12)
@@ -114,17 +115,17 @@ class Ui_LoginWindow_2(object):
 "")
         self.login_button.setObjectName("login_button")
         self.label_5 = QtWidgets.QLabel(self.page_3)
-        self.label_5.setGeometry(QtCore.QRect(440, 130, 281, 141))
+        self.label_5.setGeometry(QtCore.QRect(470, 140, 301, 141))
         font = QtGui.QFont()
-        font.setFamily("等线")
-        font.setPointSize(16)
+        font.setFamily("隶书")
+        font.setPointSize(22)
         font.setBold(True)
         font.setWeight(75)
         self.label_5.setFont(font)
         self.label_5.setStyleSheet("color: rgb(255, 255, 210);")
         self.label_5.setObjectName("label_5")
         self.frame = QtWidgets.QFrame(self.page_3)
-        self.frame.setGeometry(QtCore.QRect(790, 30, 79, 44))
+        self.frame.setGeometry(QtCore.QRect(860, 30, 79, 44))
         self.frame.setStyleSheet("QPushButton{\n"
 "border:none;\n"
 "}\n"
@@ -165,13 +166,13 @@ class Ui_LoginWindow_2(object):
         self.page_4 = QtWidgets.QWidget()
         self.page_4.setObjectName("page_4")
         self.account_2 = QtWidgets.QLineEdit(self.page_4)
-        self.account_2.setGeometry(QtCore.QRect(360, 160, 161, 51))
+        self.account_2.setGeometry(QtCore.QRect(430, 170, 161, 51))
         self.account_2.setStyleSheet("border:none;\n"
 "border-bottom:2px solid rgba(0,0,0,100);\n"
 "background-color: rgba(0, 0, 0,0);")
         self.account_2.setObjectName("account_2")
         self.signin = QtWidgets.QPushButton(self.page_4)
-        self.signin.setGeometry(QtCore.QRect(370, 390, 131, 41))
+        self.signin.setGeometry(QtCore.QRect(440, 450, 131, 41))
         font = QtGui.QFont()
         font.setFamily("幼圆")
         font.setPointSize(12)
@@ -196,21 +197,21 @@ class Ui_LoginWindow_2(object):
 "")
         self.signin.setObjectName("signin")
         self.label_11 = QtWidgets.QLabel(self.page_4)
-        self.label_11.setGeometry(QtCore.QRect(10, 20, 871, 481))
+        self.label_11.setGeometry(QtCore.QRect(70, 20, 891, 571))
         self.label_11.setStyleSheet("background-image: url(:/img/res/img/1107810.jpg);\n"
 "\n"
 "border-radius:15px;")
         self.label_11.setText("")
         self.label_11.setObjectName("label_11")
         self.password_2 = QtWidgets.QLineEdit(self.page_4)
-        self.password_2.setGeometry(QtCore.QRect(360, 210, 161, 51))
+        self.password_2.setGeometry(QtCore.QRect(430, 220, 161, 51))
         self.password_2.setStyleSheet("border:none;\n"
 "border-bottom:2px solid rgba(0,0,0,100);\n"
 "background-color: rgba(0, 0, 0,0);")
         self.password_2.setEchoMode(QtWidgets.QLineEdit.Password)
         self.password_2.setObjectName("password_2")
         self.account_had = QtWidgets.QPushButton(self.page_4)
-        self.account_had.setGeometry(QtCore.QRect(390, 430, 93, 28))
+        self.account_had.setGeometry(QtCore.QRect(460, 490, 93, 28))
         self.account_had.setStyleSheet("QPushButton{\n"
 "border:none;\n"
 "    color: rgb(0,0,0);\n"
@@ -222,7 +223,7 @@ class Ui_LoginWindow_2(object):
 "")
         self.account_had.setObjectName("account_had")
         self.label_12 = QtWidgets.QLabel(self.page_4)
-        self.label_12.setGeometry(QtCore.QRect(360, 70, 171, 61))
+        self.label_12.setGeometry(QtCore.QRect(430, 80, 171, 61))
         font = QtGui.QFont()
         font.setFamily("等线")
         font.setPointSize(16)
@@ -232,7 +233,7 @@ class Ui_LoginWindow_2(object):
         self.label_12.setStyleSheet("")
         self.label_12.setObjectName("label_12")
         self.frame_3 = QtWidgets.QFrame(self.page_4)
-        self.frame_3.setGeometry(QtCore.QRect(790, 30, 79, 44))
+        self.frame_3.setGeometry(QtCore.QRect(860, 30, 79, 44))
         self.frame_3.setStyleSheet("QPushButton{\n"
 "border:none;\n"
 "}\n"
@@ -256,7 +257,7 @@ class Ui_LoginWindow_2(object):
         self.max_button_5.setObjectName("max_button_5")
         self.horizontalLayout_5.addWidget(self.max_button_5)
         self.label_13 = QtWidgets.QLabel(self.page_4)
-        self.label_13.setGeometry(QtCore.QRect(360, 110, 141, 41))
+        self.label_13.setGeometry(QtCore.QRect(430, 120, 141, 41))
         font = QtGui.QFont()
         font.setFamily("等线")
         font.setPointSize(9)
@@ -265,19 +266,26 @@ class Ui_LoginWindow_2(object):
         self.label_13.setFont(font)
         self.label_13.setObjectName("label_13")
         self.password_confirmed = QtWidgets.QLineEdit(self.page_4)
-        self.password_confirmed.setGeometry(QtCore.QRect(360, 260, 161, 51))
+        self.password_confirmed.setGeometry(QtCore.QRect(430, 270, 161, 51))
         self.password_confirmed.setStyleSheet("border:none;\n"
 "border-bottom:2px solid rgba(0,0,0,100);\n"
 "background-color: rgba(0, 0, 0,0);")
         self.password_confirmed.setEchoMode(QtWidgets.QLineEdit.Password)
         self.password_confirmed.setObjectName("password_confirmed")
         self.PhoneNumber = QtWidgets.QLineEdit(self.page_4)
-        self.PhoneNumber.setGeometry(QtCore.QRect(360, 310, 161, 51))
+        self.PhoneNumber.setGeometry(QtCore.QRect(430, 320, 161, 51))
         self.PhoneNumber.setStyleSheet("border:none;\n"
 "border-bottom:2px solid rgba(0,0,0,100);\n"
 "background-color: rgba(0, 0, 0,0);")
         self.PhoneNumber.setEchoMode(QtWidgets.QLineEdit.Normal)
         self.PhoneNumber.setObjectName("PhoneNumber")
+        self.email = QtWidgets.QLineEdit(self.page_4)
+        self.email.setGeometry(QtCore.QRect(430, 370, 161, 51))
+        self.email.setStyleSheet("border:none;\n"
+"border-bottom:2px solid rgba(0,0,0,100);\n"
+"background-color: rgba(0, 0, 0,0);")
+        self.email.setEchoMode(QtWidgets.QLineEdit.Normal)
+        self.email.setObjectName("email")
         self.label_11.raise_()
         self.account_2.raise_()
         self.signin.raise_()
@@ -288,6 +296,7 @@ class Ui_LoginWindow_2(object):
         self.label_13.raise_()
         self.password_confirmed.raise_()
         self.PhoneNumber.raise_()
+        self.email.raise_()
         self.stackedWidget.addWidget(self.page_4)
 
         self.retranslateUi(LoginWindow_2)
@@ -306,10 +315,9 @@ class Ui_LoginWindow_2(object):
         self.lineEdit.setPlaceholderText(_translate("LoginWindow_2", "账号："))
         self.lineEdit_2.setPlaceholderText(_translate("LoginWindow_2", "密码："))
         self.login_button.setText(_translate("LoginWindow_2", "登录"))
-        self.label_5.setText(_translate("LoginWindow_2", "“ 如果你是月亮\n"
-"   能不能够陪伴\n"
-"   独守着\n"
-"   想念你的海岸”"))
+        self.label_5.setText(_translate("LoginWindow_2", "“若你决定灿烂，\n"
+" 山无遮，\n"
+" 海无拦！”"))
         self.account_2.setPlaceholderText(_translate("LoginWindow_2", "账号："))
         self.signin.setText(_translate("LoginWindow_2", "注册"))
         self.password_2.setPlaceholderText(_translate("LoginWindow_2", "密码："))
@@ -317,5 +325,6 @@ class Ui_LoginWindow_2(object):
         self.label_12.setText(_translate("LoginWindow_2", "欢迎注册研题"))
         self.label_13.setText(_translate("LoginWindow_2", "每一天，乐在考研。"))
         self.password_confirmed.setPlaceholderText(_translate("LoginWindow_2", "确认密码："))
-        self.PhoneNumber.setPlaceholderText(_translate("LoginWindow_2", "手机号码"))
+        self.PhoneNumber.setPlaceholderText(_translate("LoginWindow_2", "手机号码："))
+        self.email.setPlaceholderText(_translate("LoginWindow_2", "邮箱："))
 import resource_rc
