@@ -113,7 +113,7 @@ class Ui_Form(object):
         font.setWeight(75)
         self.head_background.setFont(font)
         self.head_background.setStyleSheet("background-color: rgb(222, 244, 245);\n"
-"background-image: url(:/新前缀/背景1.jpg);\n"
+"background-image: url(:/新前缀/背景1.png);\n"
 "color: rgb(255, 255, 255);")
         self.head_background.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.head_background.setFrameShadow(QtWidgets.QFrame.Sunken)
@@ -321,7 +321,7 @@ class Ui_Form(object):
         font.setWeight(75)
         self.head_background_2.setFont(font)
         self.head_background_2.setStyleSheet("background-color: rgb(222, 244, 245);\n"
-"background-image: url(:/新前缀/背景1.jpg);\n"
+"background-image: url(:/新前缀/背景1.png);\n"
 "color: rgb(255, 255, 255);")
         self.head_background_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.head_background_2.setFrameShadow(QtWidgets.QFrame.Sunken)
@@ -1555,16 +1555,12 @@ class Ui_Form(object):
         self.label_mine_5.raise_()
         self.Bt_main_2.raise_()
         self.label_main_2.raise_()
-        self.widget = QtWidgets.QWidget(self.page_2)
-        self.widget.setGeometry(QtCore.QRect(730, 40, 111, 41))
-        self.widget.setObjectName("widget")
         self.label_right_2.raise_()
         self.stackedWidget_4.raise_()
         self.frame_left_5.raise_()
         self.head_background_2.raise_()
         self.Bt_minimise_2.raise_()
         self.Bt_exit_2.raise_()
-        self.widget.raise_()
         self.stackedWidget.addWidget(self.page_2)
         self.page_3 = QtWidgets.QWidget()
         self.page_3.setObjectName("page_3")
@@ -1608,7 +1604,7 @@ class Ui_Form(object):
         font.setWeight(75)
         self.head_background_3.setFont(font)
         self.head_background_3.setStyleSheet("background-color: rgb(222, 244, 245);\n"
-"background-image: url(:/新前缀/背景1.jpg);\n"
+"background-image: url(:/新前缀/背景1.png);\n"
 "color: rgb(255, 255, 255);")
         self.head_background_3.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.head_background_3.setFrameShadow(QtWidgets.QFrame.Sunken)
@@ -2839,7 +2835,7 @@ class Ui_Form(object):
         font.setWeight(75)
         self.head_background_4.setFont(font)
         self.head_background_4.setStyleSheet("background-color: rgb(222, 244, 245);\n"
-"background-image: url(:/新前缀/背景1.jpg);\n"
+"background-image: url(:/新前缀/背景1.png);\n"
 "color: rgb(255, 255, 255);")
         self.head_background_4.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.head_background_4.setFrameShadow(QtWidgets.QFrame.Sunken)
@@ -3099,6 +3095,7 @@ class Ui_Form(object):
         self.stackedWidget.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
         self.stackedWidget_3.setCurrentIndex(0)
+        self.Bt_minimise.clicked.connect(Form.showMinimized) # type: ignore
         self.Bt_exit.clicked.connect(Form.close) # type: ignore
         self.Bt_minimise_2.clicked.connect(Form.showMinimized) # type: ignore
         self.Bt_exit_2.clicked.connect(Form.close) # type: ignore

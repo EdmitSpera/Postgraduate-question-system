@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="page">
     <widget class="QLabel" name="label_right">
@@ -222,7 +222,7 @@ QPushButton:pressed{
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(222, 244, 245);
-background-image: url(:/新前缀/背景1.jpg);
+background-image: url(:/新前缀/背景1.png);
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="frameShape">
@@ -634,7 +634,7 @@ padding-left:5px;
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(222, 244, 245);
-background-image: url(:/新前缀/背景1.jpg);
+background-image: url(:/新前缀/背景1.png);
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="frameShape">
@@ -746,7 +746,7 @@ QPushButton:pressed{
       </rect>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page_9">
       <widget class="QLabel" name="label_t5_3">
@@ -3071,23 +3071,12 @@ background-color: rgb(217, 217, 217);</string>
      <zorder>Bt_main_2</zorder>
      <zorder>label_main_2</zorder>
     </widget>
-    <widget class="QWidget" name="widget" native="true">
-     <property name="geometry">
-      <rect>
-       <x>730</x>
-       <y>40</y>
-       <width>111</width>
-       <height>41</height>
-      </rect>
-     </property>
-    </widget>
     <zorder>label_right_2</zorder>
     <zorder>stackedWidget_4</zorder>
     <zorder>frame_left_5</zorder>
     <zorder>head_background_2</zorder>
     <zorder>Bt_minimise_2</zorder>
     <zorder>Bt_exit_2</zorder>
-    <zorder>widget</zorder>
    </widget>
    <widget class="QWidget" name="page_3">
     <widget class="QLabel" name="label_right_3">
@@ -3168,7 +3157,7 @@ QPushButton:pressed{
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(222, 244, 245);
-background-image: url(:/新前缀/背景1.jpg);
+background-image: url(:/新前缀/背景1.png);
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="frameShape">
@@ -3496,7 +3485,7 @@ QPushButton:pressed{
       </rect>
      </property>
      <property name="currentIndex">
-      <number>3</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page_7">
       <widget class="QLabel" name="label_t5_2">
@@ -5594,7 +5583,7 @@ QPushButton:pressed{
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: rgb(222, 244, 245);
-background-image: url(:/新前缀/背景1.jpg);
+background-image: url(:/新前缀/背景1.png);
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="frameShape">
