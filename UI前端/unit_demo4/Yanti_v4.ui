@@ -26,7 +26,7 @@
     <enum>QFrame::NoFrame</enum>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>3</number>
    </property>
    <widget class="QWidget" name="page">
     <widget class="QLabel" name="label_right">
@@ -5967,7 +5967,7 @@ QPushButton:pressed{
       <enum>QFrame::Plain</enum>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>3</number>
      </property>
      <widget class="QWidget" name="page_13">
       <widget class="QPushButton" name="Bt_setting">
@@ -5986,6 +5986,9 @@ QPushButton:pressed{
          <weight>50</weight>
          <bold>false</bold>
         </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
@@ -6024,6 +6027,9 @@ QPushButton:pressed{
          <bold>false</bold>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
 	
@@ -6044,30 +6050,6 @@ QPushButton:pressed{
         <string>切换账号</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_profile">
-       <property name="geometry">
-        <rect>
-         <x>310</x>
-         <y>40</y>
-         <width>161</width>
-         <height>161</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>微软雅黑</family>
-         <pointsize>24</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">border-radius:60px;
-background-color: rgb(255, 255, 255);
-image: url(:/新前缀/头像.png);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
       <widget class="QPushButton" name="Bt_email">
        <property name="geometry">
         <rect>
@@ -6084,6 +6066,9 @@ image: url(:/新前缀/头像.png);</string>
          <weight>50</weight>
          <bold>false</bold>
         </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
@@ -6103,6 +6088,30 @@ QPushButton:pressed{
        </property>
        <property name="text">
         <string>修改个人信息</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_profile_3">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>40</y>
+         <width>201</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>24</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:60px;
+background-color: rgb(255, 255, 255);
+image: url(:/新前缀/头像.png);</string>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </widget>
@@ -6619,30 +6628,6 @@ QPushButton:pressed{
         <string>保存</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_profile_3">
-       <property name="geometry">
-        <rect>
-         <x>330</x>
-         <y>10</y>
-         <width>161</width>
-         <height>161</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>微软雅黑</family>
-         <pointsize>24</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">border-radius:60px;
-background-color: rgb(255, 255, 255);
-image: url(:/新前缀/头像.png);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_infoedit">
        <property name="geometry">
         <rect>
@@ -6848,6 +6833,34 @@ background-color: rgb(247, 247, 247);</string>
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
+      <widget class="QPushButton" name="Bt_change">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>10</y>
+         <width>171</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:60px;
+background-color: rgb(255, 255, 255);
+image: url(:/新前缀/头像.png);
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
       <zorder>Bt_back_6</zorder>
       <zorder>Bt_save</zorder>
       <zorder>label_infoedit</zorder>
@@ -6855,7 +6868,6 @@ background-color: rgb(247, 247, 247);</string>
       <zorder>label_username</zorder>
       <zorder>label_phone</zorder>
       <zorder>label_email</zorder>
-      <zorder>label_profile_3</zorder>
       <zorder>text_id</zorder>
       <zorder>text_user</zorder>
       <zorder>text_phone</zorder>
@@ -6864,6 +6876,7 @@ background-color: rgb(247, 247, 247);</string>
       <zorder>line_9</zorder>
       <zorder>line_10</zorder>
       <zorder>line_11</zorder>
+      <zorder>Bt_change</zorder>
      </widget>
     </widget>
     <zorder>label_right_4</zorder>
