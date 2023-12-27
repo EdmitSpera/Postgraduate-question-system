@@ -3066,6 +3066,17 @@ class Ui_Form(object):
 "    padding-top:5px;\n"
 "}")
         self.Bt_shiftacount.setObjectName("Bt_shiftacount")
+        self.label_profile = QtWidgets.QLabel(self.page_13)
+        self.label_profile.setGeometry(QtCore.QRect(310, 40, 161, 161))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(24)
+        self.label_profile.setFont(font)
+        self.label_profile.setStyleSheet("border-radius:60px;\n"
+"background-color: rgb(255, 255, 255);\n"
+"image: url(:/新前缀/头像.png);")
+        self.label_profile.setText("")
+        self.label_profile.setObjectName("label_profile")
         self.Bt_email = QtWidgets.QPushButton(self.page_13)
         self.Bt_email.setGeometry(QtCore.QRect(40, 250, 701, 61))
         font = QtGui.QFont()
@@ -3089,21 +3100,6 @@ class Ui_Form(object):
 "    padding-top:5px;\n"
 "}")
         self.Bt_email.setObjectName("Bt_email")
-        self.Bt_change = QtWidgets.QPushButton(self.page_13)
-        self.Bt_change.setGeometry(QtCore.QRect(300, 60, 191, 181))
-        self.Bt_change.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.Bt_change.setStyleSheet("QPushButton{\n"
-"border-radius:60px;\n"
-"background-color: rgb(255, 255, 255);\n"
-"image: url(:/新前缀/头像.png);\n"
-"}\n"
-"\n"
-"QPushButton:pressed{\n"
-"    padding-left:5px;\n"
-"    padding-top:5px;\n"
-"}")
-        self.Bt_change.setText("")
-        self.Bt_change.setObjectName("Bt_change")
         self.stackedWidget_2.addWidget(self.page_13)
         self.page_14 = QtWidgets.QWidget()
         self.page_14.setObjectName("page_14")
@@ -3457,7 +3453,7 @@ class Ui_Form(object):
         self.stackedWidget.addWidget(self.page_4)
 
         self.retranslateUi(Form)
-        self.stackedWidget.setCurrentIndex(3)
+        self.stackedWidget.setCurrentIndex(0)
         self.stackedWidget_4.setCurrentIndex(0)
         self.stackedWidget_3.setCurrentIndex(0)
         self.stackedWidget_2.setCurrentIndex(0)
