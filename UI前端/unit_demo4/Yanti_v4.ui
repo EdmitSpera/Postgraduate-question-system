@@ -5987,6 +5987,9 @@ QPushButton:pressed{
          <bold>false</bold>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
 	
@@ -6024,6 +6027,9 @@ QPushButton:pressed{
          <bold>false</bold>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
 	
@@ -6044,30 +6050,6 @@ QPushButton:pressed{
         <string>切换账号</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_profile">
-       <property name="geometry">
-        <rect>
-         <x>310</x>
-         <y>40</y>
-         <width>161</width>
-         <height>161</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>微软雅黑</family>
-         <pointsize>24</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">border-radius:60px;
-background-color: rgb(255, 255, 255);
-image: url(:/新前缀/头像.png);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
       <widget class="QPushButton" name="Bt_email">
        <property name="geometry">
         <rect>
@@ -6084,6 +6066,9 @@ image: url(:/新前缀/头像.png);</string>
          <weight>50</weight>
          <bold>false</bold>
         </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton{
@@ -6103,6 +6088,34 @@ QPushButton:pressed{
        </property>
        <property name="text">
         <string>修改个人信息</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Bt_change">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>60</y>
+         <width>191</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:60px;
+background-color: rgb(255, 255, 255);
+image: url(:/新前缀/头像.png);
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
        </property>
       </widget>
      </widget>
