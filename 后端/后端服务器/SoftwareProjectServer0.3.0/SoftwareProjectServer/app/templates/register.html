@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+    <span>账号</span><input type="text" name="phone_number">
+    <hr>
+    <span>密码</span><input type="password" name="password">
+    <hr>
+    <span>邮箱</span><input type="email" name="user_email">
+    <hr>
+    <input type="submit">
+</form>
+</body>
+</html>
