@@ -98,13 +98,13 @@ class LoginWindow(QMainWindow):
                 # 设置消息框的属性
                 message_box.setWindowTitle("错误")  # 设置窗口标题
                 message_box.setIcon(QMessageBox.Critical)  # 设置图标为警告
-                if "phone_number" in self.account_data.keys():
-
-                    message_box.setText("手机号已存在")  # 设置文本内容
-                    pass
-                elif "password" in self.account_data.keys():
-                    message_box.setText("密码长度不能少于8个字符")
-                    pass
+                # if "phone_number" in self.account_data.keys():
+                #     message_box.setText("手机号已存在")  # 设置文本内容
+                #     pass
+                # elif "password" in self.account_data.keys():
+                #     message_box.setText("密码长度不能少于8个字符")
+                #     pass
+                message_box.setText(list(self.account_data.values())[0][0])
                 message_box.setStandardButtons(QMessageBox.Ok)  # 设置按钮为确定
                 # 显示消息框
                 message_box.exec()
