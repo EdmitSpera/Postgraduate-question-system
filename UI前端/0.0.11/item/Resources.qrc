@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="新前缀">
+    <file>签到 .png</file>
+    <file>书本.png</file>
+    <file>二维码.png</file>
+    <file>头像.png</file>
+    <file>帮助.png</file>
+    <file>关于.png</file>
+    <file>硬币.png</file>
+    <file>设置.png</file>
+    <file>报错.png</file>
+    <file>背景1.jpg</file>
+    <file>已提交red.png</file>
+    <file>成绩单.png</file>
+    <file>回形针.png</file>
+    <file>签到.png</file>
+    <file>日历.png</file>
+    <file>倒计时.png</file>
+    <file>首页.png</file>
+    <file>我的.png</file>
+    <file>错题.png</file>
+    <file>练习.png</file>
+    <file>返回.png</file>
+    <file>错误.png</file>
+    <file>对勾-解除.png</file>
+    <file>关闭窗口.png</file>
+    <file>最小化.png</file>
+  </qresource>
+</RCC>
