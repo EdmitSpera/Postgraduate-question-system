@@ -52,18 +52,18 @@
 启动文件为 `main0.0.12`。
 - **注册：** 
   用户在第一次运行时，需要注册账号。
-- ![img.png](img.png)
+- ![注册界面.png](image/registerPage.png)
 - **登录：** 
   1. 输入用户名和密码在登录界面中。
-![img_1.png](img_1.png)
+![img_1.png](image/loginPage.png)
   2. 点击登录按钮进入系统。
-![img_2.png](img_2.png)
+![img_2.png](image/running1.png)
 - **不同题型分类选择：** 
   1. 进入系统后，选择不同类型的题目练习。
-![img_3.png](img_3.png)
+![img_3.png](image/running2.png)
 - **刷题界面：** 
-![img_4.png](img_4.png)
+![img_4.png](image/running3.png)
 - **个人主页相关信息修改：** 
-![img_5.png](img_5.png)
+![img_5.png](image/personal.jpg)
 
 _注：以上是基于已有文件和功能描述的概要，具体细节请查看代码文件本身。_
